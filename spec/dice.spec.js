@@ -4,11 +4,11 @@ describe('dice', function() {
 
   var dice;
   beforeEach(function() {
-    dice = require('../lib/dice');
+    dice = new Dice();
   });
 
   describe("Dice#roll", function(){
-    it("should return an number", function() {
+    it("should return a number", function() {
       expect(typeof dice.roll()).toBe("number");
     });      
 
