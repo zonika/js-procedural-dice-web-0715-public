@@ -34,3 +34,16 @@ So go create a dice prototype and give it a `roll` method that returns 1,2,3,4,5
 # Resources (optional)
 [JavaScript Prototypes vs. Class Based Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
 [JavaScript Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
+
+To run the specs follow these commands:
+```shell
+# first install the new gem to run the tests
+gem sources -a http://flatiron:33west26@gems.flatironschool.com
+gem install jasmine-flatiron
+
+# to run in the command line run
+jasmine-flatiron
+
+#to run in the browser
+jasmine-flatiron -b
+```
