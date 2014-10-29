@@ -1,7 +1,7 @@
 ---
 languages: javascript
 tags: beginner, number, OO
-resources: 1
+resources: 2
 ---
 
 # Dice
@@ -32,4 +32,5 @@ dice.roll();
 So go create a dice prototype and give it a `roll` method that returns 1,2,3,4,5 or 6 randomly!
 
 # Resources (optional)
-[JavaScript Prototypes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+[JavaScript Prototypes vs. Class Based Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
+[JavaScript Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
