@@ -1,6 +1,6 @@
 ---
 languages: javascript
-tags: beginner, number, OO
+tags: beginner, number
 resources: 2
 ---
 
